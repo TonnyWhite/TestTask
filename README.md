@@ -34,8 +34,7 @@ Ktor: For performing network requests.
 Usage Example
 To use the library, you need to include the imageLibrary:image-compose module and call the LoadImage function:
 
-kotlin
-Copy code
+
 @Composable
 fun ExampleUsage() {
     LoadImage(
