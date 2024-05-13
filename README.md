@@ -8,8 +8,7 @@ modifier: Modifier - Modifier for configuring the appearance and layout of the i
 contentScale: ContentScale - Content scaling of the image.
 onLoading: @Composable (Float) -> Unit - Animation or progress indicator during loading.
 onFailure: (Throwable) -> Unit - Error handling for failed image loading.
-kotlin
-Copy code
+
 @Composable
 fun LoadImage(
     url: String,
