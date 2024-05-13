@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,6 +10,20 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/core" />
+            <option value="$PROJECT_DIR$/common/core-compose" />
+            <option value="$PROJECT_DIR$/common/core-utils" />
+            <option value="$PROJECT_DIR$/common/main" />
+            <option value="$PROJECT_DIR$/common/main/api" />
+            <option value="$PROJECT_DIR$/common/main/compose" />
+            <option value="$PROJECT_DIR$/common/main/data" />
+            <option value="$PROJECT_DIR$/common/main/presentation" />
+            <option value="$PROJECT_DIR$/common/umbrella-compose" />
+            <option value="$PROJECT_DIR$/common/umbrella-core" />
+            <option value="$PROJECT_DIR$/imageLibrary" />
+            <option value="$PROJECT_DIR$/imageLibrary/core" />
+            <option value="$PROJECT_DIR$/imageLibrary/image" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
