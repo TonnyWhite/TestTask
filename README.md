@@ -1,16 +1,15 @@
-Main Components
-LoadImage: A Composable function designed for loading and displaying images.
+# Main Components LoadImage: A Composable function designed for loading and displaying images.
 
 Parameters:
-url: String - URL for downloading the image.
-contentDescription: String? - Description for accessibility.
-modifier: Modifier - Modifier for configuring the appearance and layout of the image.
-contentScale: ContentScale - Content scaling of the image.
-onLoading: @Composable (Float) -> Unit - Animation or progress indicator during loading.
-onFailure: (Throwable) -> Unit - Error handling for failed image loading.
+#### url: String - URL for downloading the image.
+#### contentDescription: String? - Description for accessibility.
+#### modifier: Modifier - Modifier for configuring the appearance and layout of the image.
+#### contentScale: ContentScale - Content scaling of the image.
+#### onLoading: @Composable (Float) -> Unit - Animation or progress indicator during loading.
+#### onFailure: (Throwable) -> Unit - Error handling for failed image loading.
 
 ### @Composable
-### fun LoadImage(
+# fun LoadImage(
     url: String,
     contentDescription: String?,
     modifier: Modifier = Modifier,
@@ -36,8 +35,8 @@ To use the library, you need to include the imageLibrary:image-compose module an
 
 
 ### @Composable
-### fun ExampleUsage() {
-  ###   LoadImage(
+# fun ExampleUsage() {
+     LoadImage(
         url = "https://example.com/image.png",
         contentDescription = "Example Image",
         modifier = Modifier.height(200.dp),
