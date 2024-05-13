@@ -9,8 +9,8 @@ contentScale: ContentScale - Content scaling of the image.
 onLoading: @Composable (Float) -> Unit - Animation or progress indicator during loading.
 onFailure: (Throwable) -> Unit - Error handling for failed image loading.
 
-@Composable
-fun LoadImage(
+### @Composable
+### fun LoadImage(
     url: String,
     contentDescription: String?,
     modifier: Modifier = Modifier,
@@ -35,9 +35,9 @@ Usage Example
 To use the library, you need to include the imageLibrary:image-compose module and call the LoadImage function:
 
 
-@Composable
-fun ExampleUsage() {
-    LoadImage(
+### @Composable
+### fun ExampleUsage() {
+  ###   LoadImage(
         url = "https://example.com/image.png",
         contentDescription = "Example Image",
         modifier = Modifier.height(200.dp),
